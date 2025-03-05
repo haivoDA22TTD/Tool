@@ -19,7 +19,7 @@ int main() {
         SetCursorPos(x, y);
 
         // Dừng một thời gian ngẫu nhiên từ 500ms đến 2000ms
-        Sleep(5000 + std::rand() % 1500);
+        Sleep(500 + std::rand() % 1500);
     }
 
     return 0;
